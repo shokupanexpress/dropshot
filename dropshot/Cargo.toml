@@ -96,7 +96,9 @@ features = [ "dangerous_configuration" ]
 
 [dev-dependencies.schemars]
 version = "0.8.11"
-features = [ "chrono", "uuid1" ]
+git = "https://github.com/shokupanexpress/schemars"
+branch = "ulid"
+features = [ "chrono", "uuid1", "ulid" ]
 
 [dev-dependencies.slog]
 version = "2.5.0"
