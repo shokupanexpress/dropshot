@@ -67,7 +67,9 @@ features = [ "serde", "v4" ]
 
 [dependencies.schemars]
 version = "0.8.11"
-features = [ "uuid1" ]
+git = "https://github.com/shokupanexpress/schemars"
+branch = "ulid"
+features = [ "uuid1", "ulid" ]
 
 [dev-dependencies]
 expectorate = "1.0.5"
